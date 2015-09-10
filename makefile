@@ -1,5 +1,6 @@
 CXX        := g++
-CXXFLAGS   := -pedantic -std=gnu++11 -Wall
+#CXXFLAGS   := -pedantic -std=gnu++11 -Wall
+CXXFLAGS   := -pedantic  -Wall
 LDFLAGS    := -lgtest -lgtest_main -pthread
 GCOV       := gcov
 GCOVFLAGS  := -fprofile-arcs -ftest-coverage
